@@ -1,0 +1,7 @@
+1、初始化Git仓库
+git init
+2、添加文件到Git仓库
+1）添加文件（可以添加多个文件，一次提交）
+git add readme.txt
+2）把文件提交到仓库
+git commit -m "wrote a readme file"
