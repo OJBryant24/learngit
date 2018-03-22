@@ -13,3 +13,19 @@ git status
 4、查看具体的变动内容
 git diff readme.txt
 
+5、查看历史记录
+git log
+
+#如果希望每个记录只显示一行
+git log --pretty=oneline
+
+6、把当前版本回退到上一个版本
+git reset --hard HEAD^
+
+#HEAD表示当前版本，上一个版本是HEAD^，上上一个版本是HEAD^^，上100个版本是HEAD~100
+
+#当然也可以回到刚刚被删除的版本，但是需要查找版本号（版本号不用输完，可以只输入前几位）。
+#譬如如果要恢复为一个版本号为“2b77fc...”的版本，我们可以用如下代码
+git reset --hard 2b77fc
+
+7、
