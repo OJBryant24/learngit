@@ -13,6 +13,9 @@ git status
 4、查看具体的变动内容
 git diff readme.txt
 
+#查看工作区和版本库里面最新版本文件的区别
+git diff HEAD -- [file_name]
+
 5、查看提交历史记录，以便确定回到过去的哪个版本
 git log
 
