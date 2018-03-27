@@ -39,3 +39,7 @@ git reflog
 git checkout -- [file_name]
 1）如果[file_name]自修改后没有被放到暂存区，则撤回到和版本库一模一样的状态
 2）如果[file_name]已经添加到暂存区后，又做了修改，那么撤回到添加到暂存区后的状态
+
+9、将暂存区的修改撤销掉（unstage），重新放回工作区
+git reset HEAD [file_name]
+
