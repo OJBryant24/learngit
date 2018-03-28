@@ -50,3 +50,6 @@ git commit -m "remove [file_name]"
 2）如果希望恢复版本库中被误删的文件
 git checkout -- [file_name]
 
+11、创建SSH Key
+ssh-keygen -t rsa -C "youremail@example.com"
+
