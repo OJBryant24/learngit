@@ -53,3 +53,14 @@ git checkout -- [file_name]
 11、创建SSH Key
 ssh-keygen -t rsa -C "youremail@example.com"
 
+12、关联本地与远程库（服务器）
+git remote add origin git@server-name:path/repo-name.git
+#eg., git remote add origin git@github.com:OJBryant24/learngit.git
+#eg., git remote add origin https://github.com/OJBryant24/learngit.git
+
+13、把本地master分支的最新修改推送至GitHub
+1）首次推送
+git push -u origin master
+2）非首次推送
+git push origin master
+
